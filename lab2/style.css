@@ -1,0 +1,38 @@
+
+.one {
+    background-color: #688f8f;
+}
+  
+.one:hover {
+    background-color: black;
+}
+
+
+.two {
+    background-color: #f5f568;
+}
+  
+.two:hover {
+    background-color: black;
+}
+
+#square1 {
+    position:absolute;
+	width: 100px;
+	height: 100px;
+	background: red;
+    opacity: 50%;
+    border-radius: 8%;
+    border: black;
+    border-style: double;
+}
+#square2 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    margin: 50px;
+    opacity: 50%;
+    border-radius: 8%;
+    border: black;
+    border-style: double;
+}

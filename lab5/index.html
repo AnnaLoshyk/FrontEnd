@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'/>
+    <title>Лошик А.А. ІО-12</title>
+</head>
+<link href='style.css' rel='stylesheet'/>
+<body>
+<div id='task1'>
+    <fieldset>
+        <legend>Форма:</legend>
+        <label for='name'>ПІБ</label>
+        <input id='name' type='text' placeholder='ТТТТТТ Т.Т.'
+               onmouseover='randomBg(this)' onmouseleave='clearBg(this)'>
+        <label for='group'>Група</label>
+        <input id='group' type='text' placeholder='ТТ-ЧЧ'
+               onmouseover='randomBg(this)' onmouseleave='clearBg(this)'>
+        <label for='card'>ID-card</label>
+        <input id='card' type='text' placeholder='ТТ NoЧЧЧЧЧЧ'
+               onmouseover='randomBg(this)' onmouseleave='clearBg(this)'>
+        <label for='birth'>Дата народження</label>
+        <input id='birth' type='text' placeholder='ЧЧ.ЧЧ.ЧЧЧЧ'
+               onmouseover='randomBg(this)' onmouseleave='clearBg(this)'>
+        <label for='email'>E-mail</label>
+        <input id='email' type='text'
+               placeholder='тттттт@ттттт.com' onmouseover='randomBg(this)' onmouseleave='clearBg(this)'>
+        <button type='button' onclick='submit()'>Підтвердити</button>
+    </fieldset>
+
+</div>
+<hr>
+<label for='color_input'>Оберіть колір:</label>
+<input id='color_input' type='color'>
+<script src='script.js'></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+#div1{
+    height: 15%;
+    width: 100%;
+    background-color: aqua;
+    text-align:center;  
+    line-height: 6;
+}
+
+#cont{
+    height: 70%;
+    display: flex;
+    text-align: center;
+    line-height: 30;
+}
+
+#div2{
+    background-color: chartreuse;
+    flex: auto;
+}
+
+#div3{
+    background-color:yellow;
+    flex: auto;
+}
+
+#div4{
+    background-color:magenta;
+    flex: auto;
+}
+
+#div5{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(232, 190, 20);
+    text-align:center;
+    line-height: 6;
+}
